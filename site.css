@@ -363,5 +363,7 @@ button[type="submit"]{
    form{
     padding: 0px;
     box-shadow: none;
+    grid-template-columns: 1fr;
+
   }
 }
