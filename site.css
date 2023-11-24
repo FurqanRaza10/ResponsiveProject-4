@@ -236,6 +236,15 @@ table th, table td{
   padding: 5px 0px;
   text-align: center;
 }
+table th, table caption, form label{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family:'Times New Roman', Times, serif  ;
+}
+table caption{
+  font-weight: 600;
+}
+
 
 
 /* MEDIA QUERIES */
