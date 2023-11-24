@@ -366,4 +366,7 @@ button[type="submit"]{
     grid-template-columns: 1fr;
 
   }
+  button[type="submit"]{
+    justify-self: stretch;
+  }
 }
