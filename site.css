@@ -224,6 +224,10 @@ table{
   width: 70%;
   margin: 0 auto;
 }
+table th{
+  background-color: rgba(7, 247, 7, 0.5);
+  color: #eee;
+}
 
 
 
