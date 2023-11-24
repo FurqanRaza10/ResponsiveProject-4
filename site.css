@@ -357,5 +357,7 @@ button[type="submit"]{
   #flex-container{
     flex-direction: column;
   }
-  
+  form, table{
+    width: 100%;
+  }
 }
