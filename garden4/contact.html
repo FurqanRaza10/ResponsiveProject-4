@@ -69,6 +69,41 @@
             dignissimos nihil excepturi incidunt, aliquid repellendus sed
             facilis praesentium quis ad quos obcaecati?
           </p>
+          <form id="contact" name="contact" action="contact.html" method="post">
+            <label for="fullname">Name</label>
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              placeholder="Enter full name"
+            />
+
+            <label for="email">Email</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Enter email"
+            />
+            <label for="inerests">Interests</label>
+            <div id="inerests">
+              <input type="checkbox" name="plants" id="plants" />
+              <label for="plants">Plants</label>
+              <input type="checkbox" name="gardening" id="gardening" />
+              <label for="gardening">Gardening</label>
+              <input type="checkbox" name="landscaping" id="landscaping" />
+              <label for="landscaping">Landscaping</label>
+            </div>
+            <label for="experiences">Experiences</label>
+            <textarea
+              name="experiences"
+              id="experiences"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <label></label>
+            <button type="submit" id="submit" name="submit">Submit</button>
+          </form>
         </div>
       </main>
       <footer>
