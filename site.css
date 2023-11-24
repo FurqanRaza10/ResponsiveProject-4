@@ -303,7 +303,12 @@ button[type="submit"]{
   {
     padding-left: 0;
   }
-
+  form, table{
+    width: 90%;
+  }
+   form{
+    margin: auto;
+  }
 
 }
 
