@@ -255,6 +255,10 @@ form{
   column-gap: 15px;
   
 }
+label + *{
+  margin-bottom: 15px;
+}
+
 
 
 
