@@ -360,4 +360,8 @@ button[type="submit"]{
   form, table{
     width: 100%;
   }
+   form{
+    padding: 0px;
+    box-shadow: none;
+  }
 }
