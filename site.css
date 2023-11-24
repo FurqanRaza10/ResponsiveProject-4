@@ -258,6 +258,9 @@ form{
 label + *{
   margin-bottom: 15px;
 }
+button[type="submit"]{
+  justify-self: start;
+}
 
 
 
