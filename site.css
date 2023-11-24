@@ -30,7 +30,7 @@ h2 {
 
 footer {
   font-size: smaller;
-  background-color: var(--primaryColor);
+  background-color: #0bbc0b;
   color: #eee;
   padding: 10px;
   margin-top: 20px;
@@ -225,8 +225,11 @@ table{
   margin: 0 auto;
 }
 table th{
-  background-color: rgba(7, 247, 7, 0.5);
+  background-color: #0bbc0b;
   color: #eee;
+}
+table tr:nth-of-type(even){
+  background-color: rgb(178,214,163);
 }
 
 
