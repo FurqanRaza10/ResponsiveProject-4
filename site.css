@@ -220,6 +220,11 @@ footer > div {
   box-sizing: border-box;
 }
 
+table{
+  width: 70%;
+  margin: 0 auto;
+}
+
 
 
 /* MEDIA QUERIES */
